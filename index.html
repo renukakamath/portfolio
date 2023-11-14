@@ -1,0 +1,316 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>renuka's portfolio website </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7af781a175.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/download (1).png" alt="" class="logo" >
+                <ul  id="sidemenu">
+                    <li><a href="#header" >Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                    <i class="fas fa-times"   onclick="closemenu()"></i>
+                   
+                   
+                </ul>
+
+                <i class="fas fa-bars"  onclick="openmenu()"></i>
+                
+               
+            </nav>
+            <div class="header-text">
+
+                
+                <p>Full Stack Developer</p>
+                <h1>Hi , I'm <span>Renuka</span> <br> From Kerala </h1>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/IMG_E0504.JPG" alt="" >
+                </div>
+                <div class="about-col-2">
+                    <h1  class="sub-title">About Me</h1>
+                    <p>I am a passionate full stack developer having expertise of 1 years.
+                        I work closely with my clients in developing strong brand identities that define and exhibit values, and also professional visual entities to define your tone. I am a strong team player and a social butterfly.
+                    </p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link"  onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"   onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"   onclick="opentab('eductation')">Eductation</p>
+                       
+                    </div>
+
+                    <div class="tab-contents active-tab"  id="skills">
+                        <ul>
+                            <li><span>HTML  / CSS  - <span style="color:greenyellow">70%</span> </span><br>Designing Web/App interfaces </li>
+
+                            <li><span>PHP - <span style="color:greenyellow">80%</span></span><br>Web Development  </li>
+                            <li><span>PYTHON -<span style="color:greenyellow">80%</span></span><br>Web Development  </li>
+
+                            <li><span>ANDROID - JAVA -<span style="color:greenyellow">70%</span></span><br>APP Development  </li>
+
+                            <li><span>MYSQL -<span style="color:greenyellow">85%</span></span><br>Sql Database   </li>
+                            <li><span>Node Js -Express/Mongo Db -<span style="color:greenyellow">50%</span></span><br>   </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents"  id="experience">
+                        <ul>
+                            <li><span>2022-2023</span><br>Designing & Develop Web/App interfaces  -Riss Technologies, Cochin
+
+                                Enthusiastic and  driven , i have a deep passion for software development  . Through 1 years  2 month of practice and many personal projects  </li>
+
+                                <a class="btn" href="RENUKA KAMATH A D.pdf">Experience Certificate</a>
+
+                            <li><span>2019-2022</span><br>Self - Study :Designing & Develop Web  ,As I am mostly a self-leaner , I can easily adapt to new things and always ready to take on a challenge</li>
+                           
+
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents"  id="eductation">
+                        <ul>
+                            <li><span>Current - MASTER IN COMPUTER APPLICATION </span><br>Sree Narayana Gurukulam College Of Engineering  kochi kerala <br> Under Kalam Technological University</li>
+
+                            <li><span> 2019-2022 -BACHELOR IN COMPUTER APPLICATION  </span><br>BCA- Cochin Arts & Science  kochi kerala <br>Under Mahatma Gandhi University </li>
+                          
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- services -->
+
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+
+        <div  class="services-list">
+
+            <div   >
+                <img src="image/download (4).png" alt=""   >
+                <h2>Web Design </h2>
+                <p>involves the creation of designs that bring together an appealing UI . Android app design create engaging and consistent designs based on user research and the brand message.</p>
+             
+            </div>
+
+
+            <div  >
+                <img src="image/download (2).png" alt="" >
+                <h2>Python Developer </h2>
+                <p>Ready to apply my passion for coding to a talented engineering team to develop quality solutions</p>
+                
+            </div>
+
+         
+            <div   >
+                <img src="image/download.png" alt="">
+                <h2>Php  Developer </h2>
+                <p>Ready to apply my passion for coding to a talented engineering team to develop quality solutions</p>
+               
+            </div>
+
+            <div   >
+                <img src="image/download (3).png"   alt="">
+                <h2>Android  Developer </h2>
+                <p>Initiate the development process. use the latest code, tools, and technologies to develop outstanding solutions. Add all the desired functionalities for my custom apps.</p>
+                
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- portfolio -->
+
+    <div  id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/OIP (1).jpg" alt="">
+                   <div class="layer">
+                        <h3>Online Cosmetic Shop</h3>
+                        <p>Python languages website </p>
+                        <!-- <a href="">click</a> -->
+                   </div>
+                </div>
+
+                <div class="work">
+                    <img src="image/download (2).jpg" alt="">
+                   <div class="layer">
+                        <h3>Cargo Truck Bid Auction</h3>
+                        <p>Php languages website</p>
+                        <!-- <a href="">click</a> -->
+                   </div>
+                </div>
+
+                <div class="work">
+                    <img src="image/OIP.jpg" alt="">
+                    <div class="layer">
+                        <h3>online Watch Shop</h3>
+                        <p>php languages website </p>
+                        <!-- <a href="">click</a> -->
+                    </div>
+                </div>
+
+
+                <div class="work" >
+                    <img src="image/OIP (2).jpg" alt="">
+                    <div class="layer">
+                        <h3>Online Bus Reservations System</h3>
+                        <p>php languages website</p>
+                        <!-- <a href="">click</a> -->
+                    </div>
+                </div>       
+
+
+                <div class="work" >
+                    <img src="image/OIP (3).jpg" alt="">
+                    <div class="layer">
+                        <h3>Room decor <br>(colour myworld)</h3>
+                        <p>Python with Android-java   website/Application </p>
+                        <!-- <a href="">click</a> -->
+                    </div>
+                </div>
+
+                <div class="work" >
+                    <img src="image/download (1).jpg" alt="">
+                    <div class="layer">
+                        <h3>Electric vehicles chargeing stations booking</h3>
+                        <p>Python with Android-java   website/Application  (blockchain)</p>
+                        <!-- <a href="">click</a> -->
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="image/download (3).jpg" alt="">
+                    <div class="layer">
+                        <h3>Bank Transaction </h3>
+                        <p>Python with Android-java   website/Application</p>
+                        <!-- <a href="">click</a> -->
+                    </div>
+                </div>
+
+
+                <div class="work" >
+                    <img src="image/download.jpg" alt="">
+                    <div class="layer">
+                        <h3>Smart travel Guide</h3>
+                        <p>Python with Android-java   website/Application   (blockchain)</p>
+                        <!-- <a href="">click</a> -->
+                    </div>
+                </div>
+
+
+             
+            </div>
+
+
+            <a href="#contact"  class="btn">for more Projects contact me..</a>
+        </div>
+    </div>
+
+
+
+
+    <!-- contact -->
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                        <h1  class="sub-title">Contact Us</h1>
+                        <p>Location :Kochi ,Kerala</p>
+                        <p>Email: renukakamath2@gmail.com</p>
+                        <p>Ph NO: +91-9495795304</p>
+                        <br>
+                        <div class="social-icon">
+                            <a   href="https://web.whatsapp.com/"><i class="fab fa-whatsapp"  style="width: 30px;height:30px;color:aliceblue" >Whatsapp</i></a><br>
+                            <a href="https://www.instagram.com/"><i class="fab fa-instagram"  style="width: 30px;height:30px;color:aliceblue">Instagram</i></a>
+                           
+                        </div>
+                        <a href="Brown Modern Minimalist Graphic Designer Resume.pdf" class="btn btn"> CV</a>
+                </div>
+
+                <div class="contact-right">
+                    <form action="https://mail.google.com/mail/u/0/#sent"  >
+                        <input type="text" name="name" placeholder="your name" required>
+                        <input type="email" name="email" placeholder="your email" required>
+                        <textarea name="message" id="" placeholder="your message" rows="6"></textarea>
+                        <button  type="submit"   class="btn btn2">submit</button>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+    <script>
+        var tablinks =document.getElementsByClassName("tab-links");
+        var tabcontents =document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink  of tablinks){
+                tablink.classList.remove("active-link");
+            }
+
+            for(tabcontent  of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+         
+    </script>
+
+
+    <script>
+        var sidemenu =document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+            
+        }
+
+    </script>
+  
+</body>
+</html>
